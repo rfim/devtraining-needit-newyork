@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="user" max_length="40" name="x_58872_needit_user" type="collection">
+        <element label="username" max_length="40" name="username" read_only="true" type="string"/>
+    </element>
+</database>
