@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Small talk Topics">23242db273603300c1dc32e954f6a79f</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "91a92cff9ade442aaf8d9d66eebe0e23": {
+      "id": "91a92cff9ade442aaf8d9d66eebe0e23",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "55c9a33855b442b99e946ef395b5e383": {
+          "id": "55c9a33855b442b99e946ef395b5e383",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c6f8749106a04a38bf73eede887ab3bf": {
+          "id": "c6f8749106a04a38bf73eede887ab3bf",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "321cfb838e78476a9af356a6717b506c",
+          "edgeType": "Edge",
+          "source": "55c9a33855b442b99e946ef395b5e383",
+          "target": "c6f8749106a04a38bf73eede887ab3bf",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases/>
+        <live_agent>false</live_agent>
+        <name>VA_wf1</name>
+        <nlu_intent/>
+        <nlu_model>sn_itsm_nlu_ITSM_NLU_for_VA</nlu_model>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-19 13:11:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3661ddd61ba000104965dd3cdc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VA_wf1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_3661ddd61ba000104965dd3cdc4bcb17</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-19 13:11:54</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=3661ddd61ba000104965dd3cdc4bcb17"/>
+</record_update>
